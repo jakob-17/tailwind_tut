@@ -553,10 +553,6 @@ video {
 
 .container {
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 2rem;
-  padding-left: 2rem;
 }
 
 @media (min-width: 640px) {
@@ -4231,6 +4227,14 @@ video {
 
 .bg-gradient-to-tl {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
+
+.bg-sanchez {
+  background-image: url('/dist/img/rick-sanchez-png-8.jpg');
+}
+
+.bg-beach {
+  background-image: url('/dist/img/florida-beach.jpg');
 }
 
 .from-transparent {
@@ -31859,10 +31863,6 @@ video {
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -35537,6 +35537,14 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-sanchez {
+    background-image: url('/dist/img/rick-sanchez-png-8.jpg');
+  }
+
+  .sm\:bg-beach {
+    background-image: url('/dist/img/florida-beach.jpg');
   }
 
   .sm\:from-transparent {
@@ -62974,10 +62982,6 @@ video {
 @media (min-width: 768px) {
   .md\:container {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -66652,6 +66656,14 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-sanchez {
+    background-image: url('/dist/img/rick-sanchez-png-8.jpg');
+  }
+
+  .md\:bg-beach {
+    background-image: url('/dist/img/florida-beach.jpg');
   }
 
   .md\:from-transparent {
@@ -94089,10 +94101,6 @@ video {
 @media (min-width: 1024px) {
   .lg\:container {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -97767,6 +97775,14 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-sanchez {
+    background-image: url('/dist/img/rick-sanchez-png-8.jpg');
+  }
+
+  .lg\:bg-beach {
+    background-image: url('/dist/img/florida-beach.jpg');
   }
 
   .lg\:from-transparent {
@@ -125204,10 +125220,6 @@ video {
 @media (min-width: 1280px) {
   .xl\:container {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -128882,6 +128894,14 @@ video {
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .xl\:bg-sanchez {
+    background-image: url('/dist/img/rick-sanchez-png-8.jpg');
+  }
+
+  .xl\:bg-beach {
+    background-image: url('/dist/img/florida-beach.jpg');
   }
 
   .xl\:from-transparent {
@@ -156319,10 +156339,6 @@ video {
 @media (min-width: 1536px) {
   .\32xl\:container {
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 2rem;
-    padding-left: 2rem;
   }
 
   @media (min-width: 640px) {
@@ -159997,6 +160013,14 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-sanchez {
+    background-image: url('/dist/img/rick-sanchez-png-8.jpg');
+  }
+
+  .\32xl\:bg-beach {
+    background-image: url('/dist/img/florida-beach.jpg');
   }
 
   .\32xl\:from-transparent {
