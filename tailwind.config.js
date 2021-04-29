@@ -8,7 +8,6 @@ module.exports = {
     // },
     extend: {
       backgroundImage: theme => ({
-        'sanchez': "url('/dist/img/rick-sanchez-png-8.jpg')",
         'beach': "url('/dist/img/florida-beach.jpg')"
       })
     }
@@ -16,5 +15,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/custom-forms')
+  ],
 }

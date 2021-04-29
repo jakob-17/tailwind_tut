@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    
+
     <div class="topbar pt-8 pb-48 w-full bg-gradient-to-b from-green-300 via-green-100 to-white">
         <div class="title pl-12 pr-12 lg:text-center">
             <h1 class="text-6xl text-green-700 pt-6">
@@ -28,12 +28,16 @@
                 <strong>Looking for assistance?</strong>
             </h3>
             <p class="pt-4 text-lg">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
             </p>
         </div>
 
         <div class="container flex-1 max-w-lg md:pl-4 md:pt-4 lg:pt-0 pb-16 md:pb:0">
-            <form action="" class="">
+            <form name="contact" action="">
                 <div class="">
                     <input type="text" name="name" placeholder="name" required class="w-full border-b-2 border-gray-300 px-3 py-2 
                 focus:outline-none focus:border-green-500">
@@ -44,10 +48,31 @@
                 focus:outline-none focus:border-green-500">
                 </div>
 
+                <!-- buyer and seller radio options -->
                 <div class="pt-10">
-                    <textarea name="message" placeholder="Hello! I'd like to schedule a consultation." rows="1"
-                        maxlength="3000" required class="w-full border-b-2 border-gray-300 px-3 py-2
-                focus:outline-none focus:border-green-500"></textarea>
+                    <span class="text-gray-700">Are you a buyer or a seller?</span>
+                    <div class="mt-2">
+                        <div>
+                            <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio text-green-600 h-6 w-6" name="radio-options" onclick="enable(1)" value="1" checked>
+                                <span class="ml-3 text-lg">Buyer</span>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="inline-flex items-center">
+                                <input type="radio" class="form-radio text-green-600 h-6 w-6" name="radio-options" onclick="enable(2)" value="2">
+                                <span class="ml-3 text-lg">Seller</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- buyer or seller -->
+                <div class="pt-8">
+                    <textarea id="buyer-message"
+                        placeholder="Please provide a brief description of a property that best suits your needs."
+                        rows="2" maxlength="1000" required class="w-full border-b-2 border-gray-300 px-3 py-2
+                        focus:outline-none focus:border-green-500"></textarea>
                 </div>
 
                 <div class="pt-10">
@@ -60,3 +85,16 @@
 </body>
 
 </html>
+
+<script type="text/javascript">
+
+    function enable(val) {
+        if (val === 1) {
+            document.getElementById("buyer-message").placeholder = "Please provide a brief description of a property that best suits your needs.";
+        }
+        else if (val === 2) {
+            document.getElementById("buyer-message").placeholder = "Including the address, please submit a brief description of your property.";
+        }
+    }
+
+</script>
